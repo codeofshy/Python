@@ -1,10 +1,10 @@
 if __name__ == '__main__':
-    N = int(input())
+    N = int(input('Enter the number of operations: '))
     
     l = []
     for _ in range(N):
         
-        choice = input().split()
+        choice = input('Enter operation: ').split()
         
         match choice[0]:
             case 'print':
